@@ -2,14 +2,14 @@
 
 namespace GildedRose.Console
 {
-    class Program
+    class Inn
     {
         IList<Item> Items;
         static void Main(string[] args)
         {
             System.Console.WriteLine("OMGHAI!");
 
-            var app = new Program()
+            var app = new Inn()
                           {
                               Items = new List<Item>
                                           {
